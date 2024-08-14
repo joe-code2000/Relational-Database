@@ -1,0 +1,14 @@
+use chitalaDB
+insert into Students (studentName,Age,Gender) values (Nelly,19,female)
+select * from Students
+;
+
+create database myDB
+create table myDB.users (name string, age int)
+insert into myDB.users (name,age) values (Clydie,23)
+insert into myDB.users (name,age) values (Hazel,23)
+insert into myDB.users (name,age) values (Domenic,23)
+insert into myDB.users (name,age) values (Rusputen,20)
+insert into myDB.users (name,age) values (Brayo,20)
+select * from myDB.users where age=23
+;
